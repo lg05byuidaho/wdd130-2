@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/* rafting.css */
+:root {
+    --primary-color: #163644;
+    --secondary-color:  #4E5355;
+    --headingt-color: #333333;
+    --paragraph-color:  #666666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--heading-color);
+  }
+
+  p {
+    color: var(--paragraph-color);
+  }
+
+  a { 
+    text-decoration: none;
+  }
+
+  .social-media-link {
+    text-decoration: none;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .hero {
+    position: relative;
+  }
+
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero h1 {
+    position: absolute;
+  }
+  
+  .hero article {
+    position: absolute;
+    background-color: #ffffff; 
+    opacity: 0.8;
+  }
+
+  .hero article img {
+    float: right;
+  }
+
+
+  
