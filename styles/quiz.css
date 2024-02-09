@@ -1,0 +1,74 @@
+ /* CSS styles for the form */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    /* background-color: #cbcdce; */
+    border-radius: .5rem;
+    /* width: 650px; */
+    /* margin: 0 auto; */
+    /* padding: 1rem; */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  input, textarea, select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  h1 {
+    color: navy;
+    padding-left: 35%;
+  }
+
+  /*  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  */
+  .quiz {
+    width: 450px;
+    height: 110px;
+    padding: 20px;
+    padding-left: 5%;
+  }
+
+  button[type="submit"] {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 0 auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
