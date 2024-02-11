@@ -196,19 +196,175 @@ nav {
 /* Styling the Footer */
 footer {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  padding-left: 33%;
+  grid-template-columns: 3fr 3fr  1fr;
+  width: 100%;
+  /* padding-left: 33%; */
+  padding: 10px;
   padding-top: 25px;
 }
 
+
+footer a {
+  padding-top: 25px;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
 footer p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 footer nav img {
   width: 45px;
   height: 45px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   
+}
+
+
+/* Contact styles Parts */
+
+.secontact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #edf4f5;
+  padding: 20px;
+}
+
+.secontact h2 {
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 100%;
+  /* padding: 5px; */
+}
+
+.secontact div p {
+  width:100%;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  /* padding: 5px; */
+}
+
+.secontact div iframe {
+  width: 490px;
+  height: 330px;
+  padding: 20px;
+  object-fit: cover;
+  border: 1px solid;
+  border-radius: .75em;
+}
+
+
+/* contact */
+/* Informations parts */
+
+
+
+/* Styling the employees Section */
+.secempro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: #edf4f5; */
+  padding: 10px;
+}
+
+.secempro h2 {
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+.secempro div img {
+  width: 350px;
+  height: 280px;
+  padding: 20px;
+}
+
+
+.secempro p {
+  width: 100%;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  text-align: justify;
+  background-color: #4E5355;
+  color: #fff;
+  font: italic medium sans-serif;
+  font-size: 1.5rem;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* CSS styles for the form */
+.secform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secform form {
+  /* max-width: 650px; */
+  margin: 0 auto;
+  padding: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: #cbcdce; */
+  border-radius: .5rem;
+  width: 390px;
+  /* margin: 0 auto; */
+  /* padding: 1rem; */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+input, textarea, select {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+.secform h2 {
+  text-align: center;
+  width: 100%;
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.secform button[type="submit"] {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 0 auto;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+  background-color: darkgreen;
 }
