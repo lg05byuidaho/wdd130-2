@@ -330,18 +330,19 @@ label {
   margin-bottom: 10px;
   font-weight: bold;
 }
-input, textarea, select {
+input, textarea {
   width: 95%;
   padding: 10px;
   margin-bottom: 10px;
 }
 
+/* 
 select {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
 }
-
+ */
 
 .secform h2 {
   text-align: center;
@@ -349,7 +350,6 @@ select {
   color: navy;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 
 .secform button[type="submit"] {
   margin: 1rem;
