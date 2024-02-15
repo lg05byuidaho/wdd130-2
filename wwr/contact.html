@@ -21,8 +21,8 @@
             </nav>
         </header>
         <main>
+            <h1>Three Rivers Rafting</h1>
             <Section class="secontact">
-                <h1>Three Rivers Rafting</h1>
                 <h2>Contact Us</h2>
                 <div>
                     <p>Address: 15, Main Street Calasse, Jeremie, Haiti</p>
@@ -35,17 +35,17 @@
             </Section>
             <section class="secempro">
                 <h2>Our Team</h2>
-                <div>
+                <div class="employee-profil">
                     <img src="images/employee1.jpg" alt="Employee 1">
-                    <p>Caption for Employee 1</p>
+                    <p>P Cardin PIERRE, River Director</p>
                 </div>
-                <div>
+                <div class="employee-profil">
                     <img src="images/employee2.jpg" alt="Employee 2">
-                    <p>Caption for Employee 2</p>
+                    <p>J Milot DELVA, Co-Owner</p>
                 </div>
-                <div>
+                <div class="employee-profil">
                     <img src="images/employee3.jpg" alt="Employee 3">
-                    <p>Caption for Employee 3</p>
+                    <p>Joce CLERVILLE, Operations Director</p>
                 </div>
             </section>
             <section class="secform">
@@ -55,26 +55,35 @@
                     <input type="text" id="name" name="name" required>
                 
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                 
-                    <input type="radio" name="option" id="option1">
-                    <label for="option1">General Inquiry</label>
+                    <input type="text" id="email" name="email" required>
+                    
+                    <label for="phone">Phone:</label>
+                    <input type="text" id="phone" name="phone" required>   
+                    
+                    <label>Do you have anything to say?</label>
+                    <!-- <legend>Do you have anything to say?</legend> -->
+                    <div>
+                        <input type="radio" name="choice" id="choice1" value="choice1">
+                        <label for="choice1">Yes, I have</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="choice" id="choice2" value="choice2">
+                        <label for="choice2">Not much</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="choice" id="choice3" value="choice3">
+                        <label for="choice3">No, I don't</label>
+                    </div>
 
-                    <input type="radio" name="option" id="option2">
-                    <label for="option2">Reservation Question</label>
-
-                    <input type="radio" name="option" id="option3">
-                    <label for="option3">Website Suggestion</label>
-                <!--  
                     <label for="purpose">Purpose of Message:</label>
-                    <select required>
+                    <!-- <select required> -->
                     <select id="purpose" name="purpose" required>
                         <option value="" selected>Choose One ...</option>
                         <option value="general">General Inquiry</option>
                         <option value="reservation">Reservation Question</option>
                         <option value="suggestion">Website Suggestion</option>
                     </select>
-                -->             
+                     
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" required></textarea>
                 
@@ -83,7 +92,7 @@
                 
                     <button type="submit">Submit</button>
                 </form>
-            </section>  
+            </section>
         </main>
         <footer>
             <p>&copy;2024 ⚽ Three Rivers Rafting ⚽ Guelson Laguerre</p>
