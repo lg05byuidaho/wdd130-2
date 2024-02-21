@@ -1,59 +1,77 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="rafting.css">
-    <title>Home Page</title>
-</head>
-<body>
-    <header>
-        <!-- Header content -->
-    </header>
-
-    <nav>
-        <!-- Navigation menu -->
-    </nav>
-
-    <main>
-        <section>
-            <img src="path-to-large-image.jpg" alt="Large Image">
-            <h1>Heading Message</h1>
-        </section>
-
-        <section>
-            <form>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Three Rivers Rafting | Home Page | Guelson Laguerre</title>
+        <meta name="description" content="The rafting site plan include many informations about Three River Rafting. Visit the home page please.">
+        <meta name="author" content="Guelson Laguerre">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Rafting Site Logo">
+            <nav>
+                <ul class="navigate">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul> 
+            </nav>
+        </header>
+        <main class="hometrr">
+            <div class="headertrr">
+                <img src="images/hero.jpg" alt="Hero of image">
+                <h1>Experience the Thrill of White Water Rafting!</h1>
+            </div>
+            
+            <form class="formtrr">
+                <h2>Fill in for Sign Up</h2>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" required><br><br>
+                
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <button type="submit">Sign Up</button>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <button type="submit">Sign Up for Our Newsletter</button>
+                <!-- <input type="submit" value="Sign Up"> -->
             </form>
-        </section>
-
-        <section>
-            <h2>Call to Action</h2>
-            <p>Compelling message to visit the trips page.</p>
-            <a href="trips.html">Visit Trips Page</a>
-        </section>
-
-        <section class="grid-layout">
-            <div>
-                <img src="path-to-image1.jpg" alt="Image 1">
-                <h3>Content 1</h3>
-                <p>Description of content 1.</p>
+            <section class="ahhh">
+                <p>Ready for an Adventure?</p>
+                <a href="trips.html">Explore Our Trips</a>
+            </section>        
+            <div class="container">
+                <div class="item">
+                    <img src="images/rafting1.jpg" alt="Rafting Image 1">
+                    <p>Discover the Beauty of Nature</p>
+                </div>
+                <div class="item">
+                    <img src="images/rafting2.jpg" alt="Rafting Image 2">
+                    <p>Experience Adrenaline-Pumping Rapids</p>
+                </div>
+                <div class="item">
+                    <img src="images/rafting1.jpg" alt="Rafting Image 1">
+                    <p>Explore the state with our trips</p>
+                </div>
             </div>
-            <div>
-                <img src="path-to-image2.jpg" alt="Image 2">
-                <h3>Content 2</h3>
-                <p>Description of content 2.</p>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <!-- Footer content -->
-        <a href="link-to-wireframe-image">Home Page Wireframe</a>
-    </footer>
-</body>
+        </main>
+        <footer>
+            <p>&copy;2024 ⚽ Three Rivers Rafting ⚽ Guelson Laguerre</p>
+            <a href=images/homepagewireframe.png">link to the Home page wireframe image</a>
+            <!-- <a href="https://app.moqups.com/unsaved/d2630da6/edit/page/ad64222d5">link to the Home page wireframe image</a> -->
+            <nav class="sociallinks">
+                <a href="https://facebook.com">
+                    <img src="images/facebook.png" alt="Facebook">  
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/twitter.png" alt="Twiter">  
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.png" alt="Instagram">  
+                </a>
+            </nav>
+        </footer>
+    </body>
 </html>

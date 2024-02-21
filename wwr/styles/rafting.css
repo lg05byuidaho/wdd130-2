@@ -379,3 +379,327 @@ button:hover {
   background-color: darkgreen;
 }
 
+
+
+/* Trips parts */
+
+/* Trip Description */
+
+.trip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 3fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.trip h2 {
+  position: absolute; 
+  /* top: 30%;  */
+  left: 51%; 
+  /* transform: translate(-50%, -50%);  */
+  color: navy; 
+  font-size: 2.3em;
+  text-align: left;
+  margin-top: -10px;
+}
+
+.trip img {
+  max-width: 100%;
+  height: auto;
+}
+
+.trip p {
+  max-width: 100%;
+  height: auto;
+  text-align: justify;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 2.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: #666666; */
+  color: navy;
+}
+
+/* Infos Section */
+
+.tripinfos h1 {
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tripinfos p {
+  text-align: justify;
+  padding: 20px;
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: navy;
+}
+
+.tripinfos a {
+  text-align: justify;
+  color: white;
+  /* margin: 2.5rem; */
+  background-color: navy;
+  color: #fff;
+  border: none;
+  font-size: 1.7rem;
+  padding: 20px;
+  margin: 0 auto;
+  width: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Advother Section */
+.advother h2 {
+  text-align: justify;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  font-size: 2.1rem;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.advother p {
+  text-align: justify;
+  padding: 20px;
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: navy;
+}
+
+/* Styling the Trip details */
+.tripdetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #edf4f5;
+  padding: 20px;
+}
+
+.tripdetails h1 {
+  text-align: center;
+  width: 100%;
+  color: navy;
+  font-size: 2.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tripdetails h2 {
+  text-align: center;
+  width: 100%;
+  color: navy;
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tripdetails p {
+  width: 80%;
+  color: #000;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.tripdetails table {
+  width: 80%;
+  height: auto;
+  padding: 20px;
+}
+
+
+table, td {
+  border: 1px solid #333;
+  border-collapse: collapse;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+  color: #fff;
+  background-color: navy;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+}
+
+thead {
+  background-color: #333;
+  color: #fff;
+}
+
+thead, tfoot {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Home parts */
+
+
+/* body { */
+.hometrr {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* div header { */
+.headertrr {
+  /* background-image: url('rafting-header.jpg'); */
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.headertrr img {
+  width: 100%; 
+  height: auto;
+}
+
+.headertrr h1 {
+  position: absolute; 
+  top: 60%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: white; 
+  font-size: 2.3em;
+}
+
+.formtrr {
+  /* text-align: center; */
+  margin: 20px auto;
+  /* max-width: 400px; */
+  width: 100%;
+}
+
+.formtrr input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+label {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formtrr h2 {
+  text-align: center;
+  width: 100%;
+  color: navy;
+  font-size: 2.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formtrr button[type="submit"] {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  /* padding: .75rem; */
+  font-size: 1.5rem;
+  padding: 20px;
+  margin: 0 auto;
+  width: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.ahhh {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #c0c0c0; */
+  padding: 20px;
+}
+
+.ahhh p {
+  text-align: center;
+  font-size: 2.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: navy;
+}
+
+.ahhh a {
+  position: absolute;
+  top: 85%;
+  left: 60%;
+  text-align: center;
+  color: white;
+  /* margin: 2.5rem; */
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  font-size: 2.3rem;
+  padding: 20px;
+  margin: 0 auto;
+  width: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid img {
+  max-width: 100%;
+  height: 370px;
+}
+
+.grid p {
+  max-width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5rem;
+  background-color: #666666;
+  color: yellow;
+}
+
+
+
+/* Others Home Page */
+
+.container {
+  /* max-width: 1200px; */
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.item {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.item img {
+  width: 373px;
+  height: 290px;
+  background-color: #f0f0f0;
+  padding: 5px;
+}
+
+.item p {
+  max-width: 100%;
+  /* height: auto; */
+  text-align: center;
+  /* padding: 20px; */
+  font-size: 1.5rem;
+  /* background-color: #666666; */
+  color: navy;
+}
+
